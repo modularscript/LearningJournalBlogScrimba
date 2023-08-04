@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* NOTE: logo section of a website. */
+.logo-div a {
+  color: #333;
+  text-decoration: none;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 0.847rem;
+  font-style: normal;
+  gap: 0.8em;
+  padding-left: 0.1em;
+  line-height: 0.917rem;
+  letter-spacing: -.025rem;
+}
+
+.logo-div img {
+  width: 23.162px;
+  height: 23.162px;
+  flex-shrink: 0;
+}
+
+/* NOTE: header section of a website. */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+#top-header nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  color: #090909;
+  text-align: right;
+}
+
+#top-header nav ul li a {
+  color: #090909;
+  text-decoration: none;
+  font-family: Source Sans Pro;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* NOTE:hero-content` . */
+.hero-content {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 0.7em 1.2em;
+  height: 35vh;
+  background-color: #fff;
+  box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.png) no-repeat bottom center/cover;
+}
+
+.hero-wrapper {
+  margin: 0 auto;
+  width: 95%;
+  color: white;
+}

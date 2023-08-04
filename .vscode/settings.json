@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.gitattributes": true,
+    "**/.idea": true,
+    "**/.phpintel": true,
+    "**/.vscode": true,
+    "**/desktop.ini": true,
+    "**/node_modules": true,
+    ".yarn": true
+  },
+  "cSpell.words": [
+    "Bootcamp",
+    "contebnt"
+  ]
+}
