@@ -41,9 +41,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
 #top-header nav ul {
   display: flex;
   gap: 25px;
@@ -63,17 +60,28 @@ body {
   text-transform: uppercase;
 }
 
+/*NOTE: Main content and wrapped in max width {main, section, etc}  */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1260px;
+}
+
+
+
 /* NOTE:hero-content` . */
 .hero-content {
-  /* position: relative; */
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  height: 50vh;
   padding: 0.7em 1.2em;
-  height: 35vh;
   background-color: #fff;
   box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.1);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.png) no-repeat bottom center/cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/hero.png);
+  background-position: bottom center;
+  background-size: cover;
 }
 
 .hero-wrapper {
