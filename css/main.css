@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 50vh;
+  height: 35vh;
   padding: 0.7em 1.2em;
   background-color: #fff;
   box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.1);
